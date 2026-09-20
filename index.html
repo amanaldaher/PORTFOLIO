@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aman Aldaher — Information Technology Engineering Student & Frontend Developer.">
+    <title>Aman Aldaher | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========================= WELCOME SCREEN ========================== -->
+    <div id="welcome-screen">
+        <div class="welcome-glow"></div>
+        <div class="welcome-content">
+            <p class="welcome-small">WELCOME TO</p>
+            <h1 class="welcome-title">MY <span>PORTFOLIO</span></h1>
+            <p class="welcome-name">Aman Aldaher</p>
+            <p class="welcome-role">Information Technology Engineering Student & Frontend Developer</p>
+            <button id="enter-site">
+                <span>Explore Workspace</span>
+                <span class="enter-arrow">→</span>
+            </button>
+        </div>
+        <div class="welcome-footer">
+            <span>01</span>
+            <span>Scroll or Click to explore</span>
+        </div>
+    </div>
+
+    <!-- ========================= NAVBAR ========================== -->
+    <header id="navbar">
+        <nav>
+            <!-- اللوغو الوحيد اللي فيه Eng. -->
+            <a href="#home" class="logo">Eng. <span>Aman</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#learning" class="nav-link">Learning</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" type="button" aria-label="Toggle theme">☼</button>
+                <button id="menu-toggle" type="button" aria-label="Open menu">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========================= MAIN CONTENT ========================== -->
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="hero-bg hero-bg-one"></div>
+            <div class="hero-bg hero-bg-two"></div>
+            <div class="hero-content reveal">
+                <p class="hero-intro">Hello, I'm</p>
+                <h1>Aman Aldaher</h1>
+                <h2>Frontend Developer <span>&</span> IT Engineer</h2>
+                <p class="hero-description">
+                    Building interactive, responsive web experiences with Vanilla JavaScript, exploring modern frameworks, and diving deep into software development.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work <span>→</span></a>
+                    <a href="https://t.me/MiMispark_bot" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Telegram Bot <span>🤖</span></a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/amanaldaher" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://t.me/MiMispark_bot" target="_blank" rel="noopener noreferrer">Telegram Bot</a>
+                </div>
+            </div>
+
+            <!-- الكروت الطائرة الأصلية مع الكلمات الثلاث -->
+            <div class="hero-image-wrapper reveal">
+                <div class="hero-ring"></div>
+                <div class="hero-image">
+                    <img src="./images/me.jpg" alt="Aman Aldaher" onerror="this.src='https://api.dicebear.com/7.x/bottts/svg?seed=Aman'">
+                </div>
+                <div class="floating-card card-one"><span>01</span><p>Dream</p></div>
+                <div class="floating-card card-two"><span>02</span><p>Shine</p></div>
+                <div class="floating-card card-three"><span>03</span><p>Smile</p></div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about section">
+            <div class="section-heading reveal">
+                <p>Get to know me</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p class="large-text">
+                        I'm Aman, a 2nd-year Information Technology Engineering student at the Syrian Virtual University (SVU).
+                    </p>
+                    <p>
+                        My core focus is on frontend web development, specializing in building interactive and lightweight web applications using Vanilla JavaScript, HTML5, and CSS3 without relying blindly on external frameworks.
+                    </p>
+                    <p>
+                        Alongside web development, I have a strong foundation in Object-Oriented Programming and algorithms with C++, C#, and Python, and I actively explore APIs, cybersecurity foundations, and modern UI engineering.
+                    </p>
+                </div>
+                <div class="about-highlights reveal">
+                    <div class="highlight-card">
+                        <span class="highlight-number">01</span>
+                        <div>
+                            <h3>Vanilla First</h3>
+                            <p>Mastering core JavaScript, DOM manipulation, and CSS animations before jumping into heavy tools.</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">02</span>
+                        <div>
+                            <h3>Engineering Mindset</h3>
+                            <p>Studying algorithms, data structures, and computer science foundations at SVU.</p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <span class="highlight-number">03</span>
+                        <div>
+                            <h3>Math & APIs</h3>
+                            <p>Translating trigonometry and real-world API data into smooth, interactive interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills section">
+            <div class="section-heading reveal">
+                <p>What I work with</p>
+                <h2>Skills & <span>Technologies</span></h2>
+            </div>
+            <div class="skills-container reveal">
+                <button class="skill" data-skill="HTML5"><strong>HTML5</strong><span>Semantic Web</span></button>
+                <button class="skill" data-skill="CSS3"><strong>CSS3</strong><span>3D & Flex/Grid</span></button>
+                <button class="skill" data-skill="Vanilla JavaScript"><strong>JS</strong><span>ES6+ & Logic</span></button>
+                <button class="skill" data-skill="APIs & JSON"><strong>API</strong><span>Fetch & Data</span></button>
+                <button class="skill" data-skill="C++"><strong>C++</strong><span>OOP & Fundamentals</span></button>
+                <button class="skill" data-skill="C#"><strong>C#</strong><span>OOP & Software</span></button>
+                <button class="skill" data-skill="Python"><strong>Py</strong><span>Scripting</span></button>
+                <button class="skill" data-skill="Git"><strong>Git</strong><span>Version Control</span></button>
+                <button class="skill" data-skill="GitHub Pages"><strong>GH</strong><span>Deployment</span></button>
+                <button class="skill" data-skill="Postman"><strong>API</strong><span>Testing & Mocking</span></button>
+                <button class="skill" data-skill="VS Code"><strong>IDE</strong><span>Development</span></button>
+                <button class="skill" data-skill="Telegram Bots"><strong>Bot</strong><span>Interactive UI</span></button>
+            </div>
+            <div id="skill-info" class="skill-info">
+                <p>Click on any skill to see my hands-on experience with it.</p>
+            </div>
+        </section>
+
+        <!-- CURRENTLY LEARNING -->
+        <section id="learning" class="learning section">
+            <div class="section-heading reveal">
+                <p>Growth Roadmap</p>
+                <h2>Currently <span>Learning</span></h2>
+            </div>
+            <div class="learning-grid">
+                <article class="learning-card reveal">
+                    <span class="learning-number">01</span>
+                    <div>
+                        <h3>Vue.js & Frontend Ecosystem</h3>
+                        <p>Expanding from Vanilla JS into component-driven development with Vue 3 and modern UI tooling.</p>
+                        <span class="status">In Progress</span>
+                    </div>
+                </article>
+                <article class="learning-card reveal">
+                    <span class="learning-number">02</span>
+                    <div>
+                        <h3>API Architectures & Postman</h3>
+                        <p>Diving deeper into RESTful APIs, environments, pre-request scripts, and mock servers.</p>
+                        <span class="status">Exploring</span>
+                    </div>
+                </article>
+                <article class="learning-card reveal">
+                    <span class="learning-number">03</span>
+                    <div>
+                        <h3>Cybersecurity Fundamentals</h3>
+                        <p>Hands-on practice with TryHackMe, Hack The Box, and foundational networking security.</p>
+                        <span class="status">Continuous</span>
+                    </div>
+                </article>
+                <article class="learning-card reveal">
+                    <span class="learning-number">04</span>
+                    <div>
+                        <h3>Data Structures & Algorithms</h3>
+                        <p>Advancing problem-solving skills and algorithmic efficiency as part of Informatics Engineering.</p>
+                        <span class="status">Academic</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="projects section">
+            <div class="section-heading reveal">
+                <p>What I've built</p>
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+
+            <!-- مشروع 1: The Stalking Eyes -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-art stalking-eyes-art">
+                        <div class="mini-eye"><div class="mini-pupil"></div></div>
+                        <div class="mini-eye"><div class="mini-pupil"></div></div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-label">Interactive Math Experiment</span>
+                    <h3>The Stalking Eyes</h3>
+                    <p>
+                        An interactive web project built with Vanilla JavaScript using trigonometric calculations (`Math.atan2`) to dynamically track cursor and touch movements with smooth pupil animations.
+                    </p>
+                    <div class="project-tech">
+                        <span>Vanilla JS</span><span>Trigonometry</span><span>CSS3</span><span>Math Logic</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://amanaldaher.github.io/The-Stalking-Eyes/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="https://github.com/amanaldaher/The-Stalking-Eyes" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- مشروع 2: 3D Memory Flip Card Game -->
+            <article class="project-card reverse reveal">
+                <div class="project-image">
+                    <div class="project-art flip-cards-art">
+                        <div class="mini-card flipped"><span>★</span></div>
+                        <div class="mini-card"><span>?</span></div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-label">Bilingual Web Game</span>
+                    <h3>3D Memory Flip Card Game</h3>
+                    <p>
+                        A bilingual interactive memory game featuring smooth 3D card-flip animations, interactive avatar reactions, simulated authentication flow, and LocalStorage state persistence for best scores.
+                    </p>
+                    <div class="project-tech">
+                        <span>CSS 3D Transforms</span><span>LocalStorage</span><span>Bilingual UI</span><span>Audio/FX</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://amanaldaher.github.io/Memory-Flip-Card-Game/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="https://github.com/amanaldaher/Memory-Flip-Card-Game" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- مشروع 3: Weather & Astronomy App -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-art astronomy-art">
+                        <div class="mini-moon">🌙</div>
+                        <div class="mini-weather">🌦️ NASA API</div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-label">API-Driven Web App</span>
+                    <h3>Weather & Astronomy App</h3>
+                    <p>
+                        Live weather forecasting combined with astronomical moon phase data retrieved directly from NASA APIs, presenting complex space information in an intuitive dashboard.
+                    </p>
+                    <div class="project-tech">
+                        <span>NASA API</span><span>REST API</span><span>Async/Await</span><span>Responsive UI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://amanaldaher.github.io/weather-astronomy-app/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="https://github.com/amanaldaher/weather-astronomy-app" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- مشروع 4: Adhan App -->
+            <article class="project-card reverse reveal">
+                <div class="project-image">
+                    <div class="project-art adhan-art">
+                        <div class="mini-adhan-card">
+                            <span>Next Prayer</span>
+                            <strong>🕌 Countdown</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-label">Utility & Timing App</span>
+                    <h3>Adhan App</h3>
+                    <p>
+                        Calculates accurate prayer times based on geolocation, featuring a live countdown timer to the next upcoming prayer with intuitive audio/visual cues.
+                    </p>
+                    <div class="project-tech">
+                        <span>Prayer API</span><span>JavaScript Time Engine</span><span>Audio API</span><span>Clean UI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://amanaldaher.github.io/adhan-app/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="https://github.com/amanaldaher/adhan-app" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- مشروع 5: Task Tracker -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-art tracker-art">
+                        <div class="mini-tracker">
+                            <div class="tracker-bar"><div class="tracker-fill"></div></div>
+                            <span>80% Completed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-label">Productivity App</span>
+                    <h3>Task Tracker</h3>
+                    <p>
+                        A clean, botanical sage-green themed task manager with nested subtasks, real-time dynamic progress calculation, and persistent state management without external dependencies.
+                    </p>
+                    <div class="project-tech">
+                        <span>DOM Manipulation</span><span>State Management</span><span>Custom CSS</span><span>Responsive</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://amanaldaher.github.io/Task-Tracker/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="https://github.com/amanaldaher/Task-Tracker" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- مشروع 6: Tiny Quiz -->
+            <article class="project-card reverse reveal">
+                <div class="project-image">
+                    <div class="project-art quiz-art">
+                        <div class="mini-quiz-box">✓ Quiz Active</div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-label">Interactive Quiz</span>
+                    <h3>Tiny Quiz</h3>
+                    <p>
+                        A lightweight, responsive quiz web application deployed on GitHub Pages with instant feedback, score calculation, and neat micro-animations.
+                    </p>
+                    <div class="project-tech">
+                        <span>Vanilla JS</span><span>GitHub Pages</span><span>Clean UI</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://amanaldaher.github.io/Tiny_Quiz/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="https://github.com/amanaldaher/Tiny_Quiz" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- مشروع 7: HerzHilfe Landing Page -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <div class="project-art herz-art">
+                        <div class="mini-herz-badge">💚 HerzHilfe Non-Profit</div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-label">Responsive Landing Page</span>
+                    <h3>HerzHilfe</h3>
+                    <p>
+                        A fully responsive, modern landing page designed for a non-profit organization, emphasizing clean visual hierarchy, accessibility, and smooth interaction.
+                    </p>
+                    <div class="project-tech">
+                        <span>Responsive Design</span><span>CSS Grid & Flexbox</span><span>Modern Layout</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://amanaldaher.github.io/HerzHilfe/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+                        <a href="https://github.com/amanaldaher/HerzHilfe" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- مشروع 8: Telegram Bot (MiMispark) -->
+            <article class="project-card reverse reveal">
+                <div class="project-image">
+                    <div class="project-art bot-art">
+                        <div class="mini-bot-screen">🤖 @MiMispark_bot</div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-label">Interactive Bot & Resume</span>
+                    <h3>MiMispark Telegram Bot</h3>
+                    <p>
+                        An interactive Telegram bot built to showcase my technical portfolio, experience, and CV directly inside Telegram with intuitive commands.
+                    </p>
+                    <div class="project-tech">
+                        <span>Telegram Bot API</span><span>Bot Architecture</span><span>Interactive UX</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://t.me/MiMispark_bot" target="_blank" rel="noopener noreferrer">Launch Bot 🤖 →</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="education section">
+            <div class="section-heading reveal">
+                <p>Academic Journey</p>
+                <h2>Education & <span>Studies</span></h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span>Currently 2nd Year</span>
+                        <h3>Information Technology Engineering (هندسة معلوماتية)</h3>
+                        <p>Syrian Virtual University (SVU - الجامعة الافتراضية السورية)</p>
+                        <small>Focusing on Software Engineering, Object-Oriented Programming, and Data Structures.</small>
+                    </div>
+                </article>
+                <article class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span>Online Specializations & Practice</span>
+                        <h3>Continuous Technical Learning</h3>
+                        <p>Coursera, TryHackMe & Technical Coursework</p>
+                        <small>Deepening knowledge in Web Standards, IT Support, and Security foundations.</small>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- GITHUB STATS -->
+        <section id="github" class="github section">
+            <div class="section-heading reveal">
+                <p>Open source & projects</p>
+                <h2>My <span>GitHub</span> Activity</h2>
+            </div>
+            <div class="github-card reveal">
+                <div class="github-main">
+                    <span class="github-label">GitHub Profile</span>
+                    <h3 id="github-username">@amanaldaher</h3>
+                    <p>Live demos, code architecture, and interactive web assignments hosted on GitHub.</p>
+                    <a href="https://github.com/amanaldaher" id="github-profile-link" target="_blank" rel="noopener noreferrer" class="github-button">Visit GitHub Profile →</a>
+                </div>
+                <div class="github-stats">
+                    <div><strong id="repo-count">—</strong><span>Repositories</span></div>
+                    <div><strong id="follower-count">—</strong><span>Followers</span></div>
+                    <div><strong id="following-count">—</strong><span>Following</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact section">
+            <div class="section-heading reveal">
+                <p>Let's connect</p>
+                <h2>Get In <span>Touch</span></h2>
+            </div>
+            <p class="contact-description reveal">
+                Have a project idea, collaboration, or internship opportunity? Feel free to reach out!
+            </p>
+            <div class="contact-links reveal">
+                <a href="https://t.me/MiMispark_bot" target="_blank" rel="noopener noreferrer"><span>Telegram Bot</span><strong>→</strong></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>→</strong></a>
+                <a href="https://github.com/amanaldaher" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>→</strong></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© <span id="current-year"></span> Aman Aldaher. All Rights Reserved.</p>
+        <p>Designed & Developed with Passion using Pure Web Standards.</p>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button id="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
