@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // 1. تحديث سنة الفوتر تلقائياً
+  // 1. تحديث سنة حقوق الفوتر تلقائياً
   const yearElement = document.getElementById('current-year');
   if (yearElement) {
     yearElement.textContent = new Date().getFullYear();
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 4. تفعيل قائمة الموبايل والتابلت (Menu Toggle)
+  // 4. تفعيل وإغلاق قائمة الموبايل والتابلت (Menu Toggle)
   const menuToggle = document.getElementById('menu-toggle');
   const navLinks = document.querySelector('.nav-links');
 
@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
       menuToggle.textContent = navLinks.classList.contains('nav-active') ? '✕' : '☰';
     });
 
+    // إغلاق القائمة تلقائياً فور النقر على أي رابط تنقل
     document.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('nav-active');
@@ -57,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. قسم المهارات التفاعلي
+  // 5. قسم المهارات التفاعلي (Skills Interactive Info)
   const skillsData = {
     "HTML5": "Building clean, semantic, and SEO-friendly structures.",
     "CSS3": "Advanced 3D transforms, CSS Grid, Flexbox, and fluid animations.",
